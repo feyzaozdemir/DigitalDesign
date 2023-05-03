@@ -1,0 +1,4 @@
+Running: xsim.dir/fixed_pri_arb_tb_behav/xsimk -simmode gui -wdb fixed_pri_arb_tb_behav.wdb -simrunnum 0 -socket 41441
+Design successfully loaded
+Design Loading Memory Usage: 27748 KB (Peak: 27868 KB)
+Design Loading CPU Usage: 20 ms

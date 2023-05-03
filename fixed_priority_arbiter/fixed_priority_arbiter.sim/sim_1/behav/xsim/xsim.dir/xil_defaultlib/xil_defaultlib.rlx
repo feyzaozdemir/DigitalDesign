@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:07:14
+/home/tutel/DigitalDesign/fixed_priority_arbiter/fixed_priority_arbiter.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+/home/tutel/DigitalDesign/fixed_priority_arbiter/fixed_priority_arbiter.srcs/sim_1/imports/new/new_tb.sv,1683096315,systemVerilog,,,,new_tb,,uvm,,,,,,
+/home/tutel/DigitalDesign/fixed_priority_arbiter/fixed_priority_arbiter.srcs/sim_1/new/fixed_pri_arb_tb.vhd,1683120375,vhdl,,,,fixed_pri_arb_tb,,,,,,,,
+/home/tutel/DigitalDesign/fixed_priority_arbiter/fixed_priority_arbiter.srcs/sources_1/new/fixed_priority_arbiter.vhd,1683120316,vhdl,/home/tutel/DigitalDesign/fixed_priority_arbiter/fixed_priority_arbiter.srcs/sim_1/new/fixed_pri_arb_tb.vhd,,,fixed_priority_arbiter,,,,,,,,
