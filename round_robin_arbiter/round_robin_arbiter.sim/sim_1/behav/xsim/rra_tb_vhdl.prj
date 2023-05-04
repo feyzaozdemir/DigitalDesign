@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../round_robin_arbiter.srcs/sources_1/new/fixed_priority_arbiter.vhd" \
+"../../../../round_robin_arbiter.srcs/sources_1/new/round_robin_arbiter.vhd" \
+"../../../../round_robin_arbiter.srcs/sim_1/new/rra_tb.vhd" \
+
+# Do not sort compile order
+nosort

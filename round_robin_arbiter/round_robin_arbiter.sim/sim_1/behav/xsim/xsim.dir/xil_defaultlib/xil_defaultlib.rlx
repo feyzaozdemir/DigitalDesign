@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 14 2022
+05:07:14
+/home/tutel/DigitalDesign/round_robin_arbiter/round_robin_arbiter.srcs/sim_1/new/rra_tb.vhd,1683188859,vhdl,,,,rra_tb,,,,,,,,
+/home/tutel/DigitalDesign/round_robin_arbiter/round_robin_arbiter.srcs/sources_1/new/fixed_priority_arbiter.vhd,1683185696,vhdl,,,,fixed_priority_arbiter,,,,,,,,
+/home/tutel/DigitalDesign/round_robin_arbiter/round_robin_arbiter.srcs/sources_1/new/round_robin_arbiter.vhd,1683189000,vhdl,/home/tutel/DigitalDesign/round_robin_arbiter/round_robin_arbiter.srcs/sim_1/new/rra_tb.vhd,,,round_robin_arbiter,,,,,,,,
