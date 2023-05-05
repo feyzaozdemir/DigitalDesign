@@ -41,7 +41,6 @@ end lfsr;
 architecture Behavioral of lfsr is
 signal out_temp : STD_LOGIC_VECTOR (3 downto 0);
 begin
-
     process (clk, reset)
     begin
         if(reset = '1') then
