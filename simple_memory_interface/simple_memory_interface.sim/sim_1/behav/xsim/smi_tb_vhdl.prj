@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../simple_memory_interface.srcs/sources_1/new/edge_detector.vhd" \
+"../../../../simple_memory_interface.srcs/sources_1/new/lfsr.vhd" \
+"../../../../simple_memory_interface.srcs/sources_1/new/simple_memory_interface.vhd" \
+"../../../../simple_memory_interface.srcs/sim_1/new/smi_tb.vhd" \
+
+# Do not sort compile order
+nosort

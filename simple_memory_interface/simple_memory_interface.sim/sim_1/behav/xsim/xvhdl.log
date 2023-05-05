@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tutel/DigitalDesign/simple_memory_interface/simple_memory_interface.srcs/sources_1/new/simple_memory_interface.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'simple_memory_interface'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tutel/DigitalDesign/simple_memory_interface/simple_memory_interface.srcs/sim_1/new/smi_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'smi_tb'
