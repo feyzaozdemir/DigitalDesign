@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "apb_master_tb_behav" "xil_defaultlib.apb_master_tb" -log "elaborate.log" 

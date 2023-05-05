@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../APB_master.srcs/sources_1/new/APB_master.vhd" \
+"../../../../APB_master.srcs/sim_1/new/apb_master_tb.vhd" \
+
+# Do not sort compile order
+nosort
