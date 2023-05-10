@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../APB_system.srcs/sources_1/new/APB_master.vhd" \
+"../../../../APB_system.srcs/sources_1/new/APB_slave.vhd" \
+"../../../../APB_system.srcs/sources_1/new/APB_system.vhd" \
+"../../../../APB_system.srcs/sources_1/new/fixed_arb.vhd" \
+"../../../../APB_system.srcs/sources_1/new/lfsr.vhd" \
+"../../../../APB_system.srcs/sources_1/new/simple_memory_interface.vhd" \
+"../../../../APB_system.srcs/sources_1/new/synch_FIFO.vhd" \
+"../../../../APB_system.srcs/sim_1/new/apb_system_tb.vhd" \
+
+# Do not sort compile order
+nosort
