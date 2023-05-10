@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "synch_FIFO_behav" "xil_defaultlib.synch_FIFO" -log "elaborate.log" 
