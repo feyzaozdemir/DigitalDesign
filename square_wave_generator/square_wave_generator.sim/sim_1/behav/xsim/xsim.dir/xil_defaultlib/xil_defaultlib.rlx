@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:07:14
+/home/tutel/DigitalDesign/square_wave_generator/square_wave_generator.srcs/sim_1/new/clk_tb.vhd,1684916163,vhdl,,,,clk_tb,,,,,,,,
+/home/tutel/DigitalDesign/square_wave_generator/square_wave_generator.srcs/sim_1/new/swg_tb.vhd,1684912386,vhdl,,,,swg_tb,,,,,,,,
+/home/tutel/DigitalDesign/square_wave_generator/square_wave_generator.srcs/sources_1/new/clock_divider.vhd,1684915943,vhdl,/home/tutel/DigitalDesign/square_wave_generator/square_wave_generator.srcs/sim_1/new/clk_tb.vhd,,,clock_divider,,,,,,,,
+/home/tutel/DigitalDesign/square_wave_generator/square_wave_generator.srcs/sources_1/new/square_wave_generator.vhd,1684926558,vhdl,/home/tutel/DigitalDesign/square_wave_generator/square_wave_generator.srcs/sim_1/new/swg_tb.vhd,,,square_wave_generator,,,,,,,,

@@ -1,0 +1,7 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot swg_tb_behav xil_defaultlib.swg_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-493] choice 0 is out of range 255 to 0 for the index subtype [/home/tutel/DigitalDesign/square_wave_generator/square_wave_generator.srcs/sources_1/new/square_wave_generator.vhd:79]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit swg_tb in library work failed.
