@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/tutel/DigitalDesign/square_wave_generator/square_wave_generator.srcs/sources_1/new/square_wave_generator.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'square_wave_generator'
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/tutel/DigitalDesign/square_wave_generator/square_wave_generator.srcs/sim_1/new/swg_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'swg_tb'
