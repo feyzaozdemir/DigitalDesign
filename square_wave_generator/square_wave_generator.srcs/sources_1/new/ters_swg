@@ -1,0 +1,90 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 27.05.2023 14:08:19
+-- Design Name: 
+-- Module Name: square_wave_generator - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity square_wave_generator is
+generic (
+        amp : real := 3.0;        --amplitude -10 to 10
+        freq : integer := 100000);  --frequency
+Port ( clk : in std_logic;
+       deneme : out integer;
+       wave_out : out std_logic);
+end square_wave_generator;
+
+architecture Behavioral of square_wave_generator is
+
+component clock_divider is
+Port ( clk : in STD_LOGIC;
+       freq : in integer;
+       dvd_clk : out STD_LOGIC);
+end component clock_divider;
+
+
+signal dvd_clk : std_logic;
+signal sq_wave : std_logic := '0';
+signal genlik : real := amp;
+signal index : integer := 127;
+signal cnt : std_logic_vector (1 downto 0) := "00";
+signal Sel : unsigned(1 downto 0) := (others => '0');
+begin
+
+clk_dvd : clock_divider port map (clk => clk, freq => freq, dvd_clk => dvd_clk);
+
+process (dvd_clk)
+begin
+    if(dvd_clk'event and dvd_clk='1') then
+
+        case Sel is
+            when "00" =>
+                deneme <= integer(-genlik);
+                Sel <= "01";
+            when "01" =>
+                deneme <= -1;                                
+                Sel <= "10";
+            when "10" =>
+                deneme <= integer(genlik);                
+                Sel <= "11";
+            when "11" =>    
+                deneme <= 1;            
+                Sel <= "00";
+            when others => -- 'U', 'X', '-', etc.
+                deneme <= 0;
+        end case;
+        
+        sq_wave <= not sq_wave;
+    end if;
+end process;
+
+wave_out <= sq_wave;
+
+end Behavioral;
